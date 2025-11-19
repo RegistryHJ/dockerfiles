@@ -1,0 +1,19 @@
+# vim:set ft=dockerfile:
+FROM alpine:3.22
+
+LABEL maintainer="RegistryHJ (https://github.com/RegistryHJ)"
+
+RUN \
+  set -eux; \
+  printf '%s\n' \
+    "https://ap.edge.kernel.org/alpine/v3.22/main" \
+    "https://ap.edge.kernel.org/alpine/v3.22/community" > /etc/apk/repositories && \
+  apk update && \
+  apk upgrade && \
+  apk add --no-cache tzdata && \
+  ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime && \
+  rm -rf /var/cache/apk/*
+
+ENV LANG=C.UTF-8
+
+CMD ["/bin/sh"]
