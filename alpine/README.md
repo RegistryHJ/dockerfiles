@@ -17,7 +17,8 @@ Alpine Linux Multi-Architecture Dockerfiles.
 
 ## Supported Tags
 
-- [**`latest`**](https://hub.docker.com/repository/docker/registryhj/alpine/tags?name=latest), [**`3.22`**](https://hub.docker.com/repository/docker/registryhj/alpine/tags?name=3.22) - Alpine Linux v3.22 (Latest)
+- [**`latest`**](https://hub.docker.com/repository/docker/registryhj/alpine/tags?name=latest), [**`3.23`**](https://hub.docker.com/repository/docker/registryhj/alpine/tags?name=3.23) - Alpine Linux v3.23
+- [**`3.22`**](https://hub.docker.com/repository/docker/registryhj/alpine/tags?name=3.22) - Alpine Linux v3.22
 - [**`3.21`**](https://hub.docker.com/repository/docker/registryhj/alpine/tags?name=3.21) - Alpine Linux v3.21
 - [**`3.20`**](https://hub.docker.com/repository/docker/registryhj/alpine/tags?name=3.29) - Alpine Linux v3.20
 
