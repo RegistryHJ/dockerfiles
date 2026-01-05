@@ -5,9 +5,6 @@ LABEL maintainer="RegistryHJ (https://github.com/RegistryHJ)"
 
 RUN \
   set -eux; \
-  printf '%s\n' \
-    "https://ap.edge.kernel.org/alpine/v3.20/main" \
-    "https://ap.edge.kernel.org/alpine/v3.20/community" > /etc/apk/repositories && \
   apk update && \
   apk upgrade && \
   apk add --no-cache tzdata && \

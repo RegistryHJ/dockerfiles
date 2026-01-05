@@ -8,7 +8,6 @@ Alpine Linux Multi-Architecture Dockerfiles.
 
 ## Features
 
-- **APK Repository Mirror** (`MIRRORS.KERNEL.ORG`)
 - **Locale Configuration** (`LANG=C.UTF-8`)
 - **Timezone Setup** (`Asia/Seoul`)
 - **Optimized Package Installation and Caching**
