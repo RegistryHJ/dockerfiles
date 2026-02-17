@@ -47,7 +47,7 @@ docker run -d \
     registryhj/mariadb:<tag_name>
 ```
 
-or If you want to set `User` and `Database`:
+or Initialize with a specific `User` and `Database`:
 
 ```
 docker run -d \
@@ -66,7 +66,7 @@ docker run -d \
 docker exec -it <container_name> mariadb -u root -p
 ```
 
-or If you want to set `User` and `Database`:
+or Access to a specific `Database` with a `User`:
 
 ```
 docker exec -it <container_name> mariadb -u <user> -p <database>
